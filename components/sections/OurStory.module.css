@@ -1,0 +1,6 @@
+.section { display: grid; gap: 1.5rem; padding: 4rem 1.25rem; background: var(--orange); color: var(--black); }
+.title { font-size: clamp(2.5rem, 10vw, 6rem); max-width: 10ch; }
+.body { display: grid; gap: 1rem; font-size: 1.2rem; max-width: 36rem; font-weight: 500; }
+@media (min-width: 900px) {
+  .section { grid-template-columns: 1fr 1fr; align-items: end; padding: 6rem 3rem; gap: 3rem; }
+}

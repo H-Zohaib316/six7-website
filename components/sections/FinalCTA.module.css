@@ -1,0 +1,3 @@
+.section { display: grid; gap: 1.5rem; padding: 4rem 1.25rem; background: var(--orange); color: var(--black); justify-items: start; }
+.title { font-size: clamp(4rem, 20vw, 12rem); }
+@media (min-width: 900px) { .section { padding: 6rem 3rem; } }
